@@ -14,7 +14,7 @@ Este documento describe los pasos seguidos para realizar el análisis de embudo 
 ## 3. Análisis del embudo
 - Definición de etapas: visita, registro, compra, recompra.
 - Cálculo de tasas de conversión entre cada etapa.
-- Segmentación por país y categoría de producto.
+- Segmentación por país.
 
 ## 4. Exportación de resultados
 - `embudo_general.csv`: resumen global del embudo.
