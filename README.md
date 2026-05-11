@@ -1,27 +1,25 @@
-# Metodología del Análisis de Embudo - MercadoLibre
+# 📊 Análisis de Embudo MercadoLibre 
 
-Este documento describe los pasos seguidos para realizar el análisis de embudo y retención de usuarios en MercadoLibre.
+## 🎯 Objetivo
+Análisis completo del embudo de conversión y retención de usuarios de MercadoLibre (01/01/2025 - 08/31/2025) para identificar oportunidades de optimización.
 
-## 1. Recolección de datos
-- Se obtuvieron datos de interacción de usuarios en la plataforma.
-- Se consolidaron en un archivo Excel (`spreadsheet_analysis.xlsx`) para su procesamiento.
+## 📈 Hallazgos Clave
 
-## 2. Limpieza y preparación
-- Normalización de nombres de columnas.
-- Eliminación de valores nulos y duplicados.
-- Conversión de formatos de fecha y métricas numéricas.
+### Embudo de Conversión
+- **Caída crítica:** select_item (76.9%) → add_to_cart (11.0%) = **65.89 puntos**
+- **Líder:** Uruguay (4.54% conversión final)
+- **Críticos:** Paraguay, Colombia, Ecuador (0% conversión final)
 
-## 3. Análisis del embudo
-- Definición de etapas: visita, registro, compra, recompra.
-- Cálculo de tasas de conversión entre cada etapa.
-- Segmentación por país y categoría de producto.
+### Retención
+- **D7:** 85% → **D28:** 2.5% (caída de 82.5 puntos)
+- **Momentos críticos:** D7-D14 (-32.6 pts) y D14-D21 (-29.4 pts)
 
-## 4. Exportación de resultados
+## 🛠️ Herramientas
+- **Análisis:** Google Sheets/Excel
+- **Metodología:** Análisis de cohortes, embudo de conversión
+- **Visualización:** Tablas dinámicas, análisis comparativo
+
+## 📁 Archivos
 - `embudo_general.csv`: resumen global del embudo.
 - `embudo_por_pais.csv`: análisis comparativo por país.
 - `retencion_datos.csv`: métricas de retención de usuarios.
-
-## 5. Visualización y conclusiones
-- Gráficos de barras y embudos de conversión.
-- Identificación de puntos críticos de abandono.
-- Recomendaciones para mejorar la retención y aumentar la productividad económica.
