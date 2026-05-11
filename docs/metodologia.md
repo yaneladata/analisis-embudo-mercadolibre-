@@ -22,7 +22,7 @@ Este documento describe los pasos seguidos para realizar el análisis de embudo 
 - `retencion_datos.csv`: métricas de retención de usuarios.
 
 ## 5. Visualización y conclusiones
-- Gráficos de barras y embudos de conversión.
+- Embudos de conversión.
 - Identificación de puntos críticos de abandono.
 - Recomendaciones para mejorar la retención y aumentar la productividad económica.
 
