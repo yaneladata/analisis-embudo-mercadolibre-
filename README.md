@@ -27,8 +27,8 @@ Análisis completo del embudo de conversión y retención de usuarios de Mercado
 ## 🚀 Impacto esperado
 Este análisis permite comprender los puntos críticos del embudo de conversión en MercadoLibre y las variaciones de retención entre países.
 
-Equipos de marketing: obtienen información para diseñar campañas más efectivas, enfocadas en reducir la caída entre select_item y add_to_cart.
+-Equipos de marketing: obtienen información para diseñar campañas más efectivas, enfocadas en reducir la caída entre select_item y add_to_cart.
 
-Áreas de producto: pueden priorizar mejoras en la experiencia de usuario durante el checkout y la navegación.
+-Áreas de producto: pueden priorizar mejoras en la experiencia de usuario durante el checkout y la navegación.
 
-Gestión regional: facilita la comparación entre países y la identificación de mercados con mayor potencial de optimización.
+-Gestión regional: facilita la comparación entre países y la identificación de mercados con mayor potencial de optimización.
