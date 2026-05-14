@@ -23,3 +23,7 @@ Análisis completo del embudo de conversión y retención de usuarios de Mercado
 - `embudo_general.csv`: resumen global del embudo.
 - `embudo_por_pais.csv`: análisis comparativo por país.
 - `retencion_datos.csv`: métricas de retención de usuarios.
+  
+## 🚀 Impacto esperado
+Este análisis permite identificar los puntos críticos del embudo de conversión y diseñar estrategias de retención más efectivas por país. Las recomendaciones pueden aplicarse en campañas de marketing, optimización del checkout y fidelización de clientes.
+
