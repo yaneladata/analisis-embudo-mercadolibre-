@@ -23,6 +23,7 @@ Análisis completo del embudo de conversión y retención de usuarios de Mercado
 - `embudo_general.csv`: resumen global del embudo.
 - `embudo_por_pais.csv`: análisis comparativo por país.
 - `retencion_datos.csv`: métricas de retención de usuarios.
+- Equipos de marketing: obtienen información para diseñar campañas más efectivas, enfocadas en reducir la caída entre select_item y add_to_cart.
 
 ## 🚀 Impacto esperado
 Este análisis permite comprender los puntos críticos del embudo de conversión en MercadoLibre y las variaciones de retención entre países.
