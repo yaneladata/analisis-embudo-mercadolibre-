@@ -28,9 +28,14 @@ Análisis de conversión (6 etapas) y retención por cohortes (D7, D14, D21, D28
   * **Uruguay:** Lidera el desempeño regional con una conversión final del **4.55%**.
     
 ![Embudo de Conversión General](https://github.com/user-attachments/assets/b40a0ee2-d84f-4799-bff9-45e4c575467a)
+<img width="1298" height="606" alt="Captura de pantalla 2026-09-14 130014" src="https://github.com/user-attachments/assets/4be3255b-11a9-4e9a-b201-3b3ed195cfa2" />
+
+
 *_Figura 1: Conversión acumulada del embudo general en LATAM._*
 
 ![Conversión por País](https://github.com/user-attachments/assets/626190b2-9905-4ab1-bd9a-72828a317905)
+<img width="1376" height="966" alt="Captura de pantalla 2026-09-14 125855" src="https://github.com/user-attachments/assets/f21e3fba-3837-43ea-bf4e-b9001d3deed1" />
+
 *_Figura 2: Desglose comparativo de conversion rates por país._*
 
 #### 2. Análisis de Retención 
