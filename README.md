@@ -1,33 +1,32 @@
-## 📊  MercadoLibre: Conversion Funnel & User Retention Analysis
-Diagnóstico cuantitativo del embudo de conversión (6 etapas) y retención de usuarios por cohortes en 10 países de Latinoamérica durante el período comprendido entre el **01/01/2025 y el 31/08/2025**, enfocado en identificar puntos de fuga y oportunidades de optimización regional.
+# 📊 Análisis de Embudo de Conversión y Retención - MercadoLibre LATAM
 
  ## 🎯 Contexto y Problema Analizado
 MercadoLibre buscaba evaluar la eficiencia de su experiencia de compra y la sostenibilidad de la base de usuarios registrados. Este análisis resuelve dos preguntas estratégicas de negocio:
- **Fricción en el Embudo de Conversión:** ¿En qué paso del proceso de compra se pierde la mayor proporción de usuarios y cómo varía este comportamiento según el mercado geográfico?
- **Sostenibilidad del Engagement (Retención):** ¿Cómo evoluciona el retorno de usuarios activos a los 7, 14, 21 y 28 días (**D7, D14, D21, D28**) y en qué momentos ocurren las mayores fugas de retención?
+* **Fricción en el Embudo de Conversión:** ¿En qué paso del proceso de compra se pierde la mayor proporción de usuarios y cómo varía este comportamiento según el mercado geográfico?
+* **Sostenibilidad del Engagement (Retención):** ¿Cómo evoluciona el retorno de usuarios activos a los 7, 14, 21 y 28 días (**D7, D14, D21, D28**) y en qué momentos ocurren las mayores fugas de retención?
 
  ## 🛠️ Herramientas 
 - Google Sheets / Excel 
 
 ## 🛠️ Metodología y Proceso de Análisis
 * **Exploración de Datos Agregados:** Revisión de las tablas de conversión (6 etapas de `select_item` a `purchase`) y retención por cohortes mensuales (`D7`, `D14`, `D21`, `D28`).
-* **Análisis de Embudo (Funnel Analysis):** Diagnóstico de caídas incrementales (*drop-off*) entre etapas consecutivas y comparación de tasas de conversión punta a punta entre los 10 países de LATAM.
+* **Análisis de Embudo (Funnel Analysis):** Diagnóstico de caídas incrementales (*drop-off*) entre etapas consecutivas y comparación de tasas de conversión punta a punta entre 10 países de LATAM.
 * **Análisis de Cohortes y Retención:** Seguimiento de las curvas de retorno de usuarios activos por país de origen para identificar las fases de mayor desinterés acumulado (foco en la transición D7 ➔ D14).
-* **Síntesis Ejecutiva (Estructura C → F → I):** Traducción de los patrones encontrados en diagnósticos de negocio (*Contexto, Hallazgos e Implicaciones*) priorizados para Producto y Growth.
+* **Síntesis Ejecutiva (Estructura C → F → I):** Traducción de los patrones encontrados en diagnósticos de negocio (*Contexto, Hallazgos e Implicaciones*) priorizados para Producto y Crecimiento.
 
 ## 💡 Principales Hallazgos & Informe Ejecutivo (C → F → I)
 ### 📌 Contexto (C)
 Análisis de conversión (6 etapas) y retención por cohortes (D7, D14, D21, D28) para MercadoLibre en 10 países de LATAM, en el período comprendido del **01/01/2025 al 31/08/2025**.
 
 ### 🔍 Hallazgos Clave (F)
-#### 1. Embudo de Conversión (Funnel Analysis)
-* **Caída Crítica (Drop-off):** El **85.7%** de los usuarios que seleccionan un producto abandonan antes de añadirlo al carrito (`select_item` 76.90% ➔ `add_to_cart` 11.01%), lo que representa una pérdida masiva de **65.89 puntos porcentuales**.
+#### 1. Embudo de Conversión
+* **Caída Crítica (Drop-off):** El **85.7%** de los usuarios que seleccionan un producto abandonan antes de añadirlo al carrito (`select_item` 76.90% ➔ `add_to_cart` 11.01%), representando una pérdida de **65.89 puntos porcentuales**.
 * **Conversión Final Global:** La tasa de compra completada (`purchase`) a nivel LATAM es del **1.25%**.
 * **Anomalías por País:**
   * **Paraguay:** Presenta un cuello de botella absoluto en el inicio del checkout (**0.00%** desde `begin_checkout`).
   * **Colombia y Ecuador:** Inician transacciones pero registran **0.00%** de conversión final.
   * **Uruguay:** Lidera el desempeño regional con una conversión final del **4.55%**.
-
+    
 ![Embudo de Conversión General](https://github.com/user-attachments/assets/b40a0ee2-d84f-4799-bff9-45e4c575467a)
 *_Figura 1: Conversión acumulada del embudo general en LATAM._*
 
